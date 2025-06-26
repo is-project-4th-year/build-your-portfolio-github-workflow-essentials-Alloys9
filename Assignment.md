@@ -12,7 +12,7 @@
 ## 2. Deployed Portfolio Link
 
 * **GitHub Pages URL**:
-  [https://alloys9.github.io/portfolio-alloys](https://alloys9.github.io/portfolio-alloys)
+  [https://is-project-4th-year.github.io/build-your-portfolio-github-workflow-essentials-Alloys9/](https://is-project-4th-year.github.io/build-your-portfolio-github-workflow-essentials-Alloys9/)
 
 ---
 
