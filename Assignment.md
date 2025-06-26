@@ -2,67 +2,104 @@
 
 ## 1. Student Details
 
-- **Full Name**:
-- **Admission Number**:
-- **GitHub Username**:
-- **Email**:
+* **Full Name**: Alloys Amasakha
+* **Admission Number**: 150213
+* **GitHub Username**: Alloys9
+* **Email**: [alloys.amasakha@strathmore.edu](mailto:alloys.amasakha@strathmore.edu)
+
+---
 
 ## 2. Deployed Portfolio Link
 
-- **GitHub Pages URL**:  
-  _(Provide the live link to your deployed portfolio website)_
+* **GitHub Pages URL**:
+  [https://is-project-4th-year.github.io/build-your-portfolio-github-workflow-essentials-Alloys9/](https://is-project-4th-year.github.io/build-your-portfolio-github-workflow-essentials-Alloys9/)
+
+---
 
 ## 3. Learnings from the Git Crash Program
 
-Write about **4 things** you expected to learn during the Git crash course (yes, we all came in with some big hopes 😅).
-For each one, mention:
+### **🧠 What I Thought I'd Learn vs What I Actually Learned**
 
-What you thought it would be like **(Expectation 👀)**
+---
 
-What you actually learned **(Reality 😅)**
-
-And how it helped with your personal portfolio project 💻
-
-make it honest—and if it surprised you, even better!
-
-Example format:
-
-**🧠 What I Thought I'd Learn vs What I Actually Learned**
 **1. Concept: Branching**
 
-`Expectation 👀` : I thought branching was just for developers working on big apps—nothing I’d need for a small project.
+* `Expectation`: I thought branches were mostly for big teams like working on huge software projects.
+* `Reality`: Turns out branching is just as important in solo work. It kept my portfolio organized and allowed me to work on individual features without touching the main code.
+* `Impact`: I used branches like `feature/about-me` and `feature/projects-section`, which helped me isolate sections and avoid errors on the live site.
 
-`Reality 😅`: Turns out even solo devs need branches! It helped me avoid breaking my main code while testing new designs.
+---
 
-`Impact 💡`: I created a feature branch for my "About Me" section and merged it smoothly into the main branch after testing. Super useful!
+**2. Concept: Pull Requests**
+
+* `Expectation`: I thought pull requests were only necessary when other people are reviewing your code.
+* `Reality`: I discovered that PRs help *me* track my changes, test features before merging, and link to issues cleanly.
+* `Impact`: I opened pull requests for every section like Home and Contact and merged them only after testing locally. This kept my workflow clean.
+
+---
+
+**3. Concept: Issues and Milestones**
+
+* `Expectation`: I assumed issues and milestones were more of a formality. I didn’t think I’d need them for a personal site.
+* `Reality`: They actually gave me a clear structure and timeline. Each section of my portfolio was an issue tied to a `v1.0 Portfolio Launch` milestone.
+* `Impact`: I stayed on track by treating each issue like a task, and seeing milestone progress hit 100% felt super rewarding.
+
+---
+
+**4. Concept: GitHub Pages Deployment**
+
+* `Expectation`: I thought deployment to GitHub Pages would be confusing or require coding.
+* `Reality`: It was surprisingly easy just choose the `main` branch in GitHub Pages settings.
+* `Impact`: It took less than a minute to publish my site live. This helped me test changes instantly and made sharing my work easy.
+
+---
 
 ## 4. Screenshots of Key GitHub Features
-
-Include screenshots that demonstrate how you used GitHub to manage your project. For each screenshot, write a short caption explaining what it shows.
-
-> Upload the screenshots to your GitHub repository and reference them here using Markdown image syntax:
-> (you could just simply copy and paste the image into the Assignment.md)
-
-```markdown
-![Caption](path/to/your/image.png)
-```
-
 ### A. Milestones and Issues
 
-- Screenshot showing your milestone(s) and the issues linked to it.
+```markdown
+![Milestone and Issues](images/milestones-issues.png)
+```
+
+**Caption**: This screenshot shows the milestone `v1.0 Portfolio Launch` with issues like “Home Page” and “Contact” linked to it.
+
+---
 
 ### B. Project Board
 
-- Screenshot of your GitHub Project Board with issues organized into columns (e.g., To Do, In Progress, Done).
+```markdown
+![Project Board](images/project-board.png)
+```
+
+**Caption**: The GitHub Project Board helped me organize my tasks into “To Do”, “In Progress”, and “Done” columns.
+
+---
 
 ### C. Branching
 
-- Screenshot showing your branch list with meaningful naming.
+```markdown
+![Branches](images/branches.png)
+```
+
+**Caption**: Each section of my portfolio had its own feature branch (e.g. `feature/home-page`, `feature/about-me`) for better isolation and testing.
+
+---
 
 ### D. Pull Requests
 
-- Screenshot of a pull request that’s either open or merged and linked to a related issue.
+```markdown
+![Pull Request](images/pull-request.png)
+```
+
+**Caption**: This pull request shows how I merged the “About Me” section into the `main` branch after testing it. It’s linked to Issue #2.
+
+---
 
 ### E. Merge Conflict Resolution
 
-- Screenshot of a resolved merge conflict (in a pull request, commit history, or your local terminal/GitHub Desktop).
+```markdown
+![Merge Conflict](images/merge-conflict.png)
+```
+
+**Caption**: I encountered a small conflict when merging the style changes. I resolved it manually and committed the fix.
+
